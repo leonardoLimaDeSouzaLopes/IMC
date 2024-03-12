@@ -1,0 +1,73 @@
+:root {
+    --preto-principal: #000;
+    --branco-principal: #fff;
+    --azul-principal: #4098ff;
+    --azul-secundario: #70c0ff;
+    --branco-azulado-terciario: #d4e8ff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    background-color: var(--azul-principal);
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 7em;
+}
+
+#titulo {
+    font-size: 40px;
+}
+
+.tabela-imc {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.tabela-linha {
+    background-color: var(--branco-azulado-terciario);
+    border: 1px solid;
+    border-color: var(--branco-principal);
+}
+
+.tabela-coluna-imc {
+    background-color: var(--azul-secundario);
+    border: 1px solid;
+    border-color: var(--branco-principal);
+    padding-top: 1em;
+    padding-right: 4em;
+    padding-bottom: 1em;
+    padding-left: 4em;
+}
+
+.tabela-coluna-classificacao {
+    background-color: var(--branco-azulado-terciario);
+    border: 1px solid;
+    border-color: var(--branco-principal);
+    padding-top: 1em;
+    padding-right: 4em;
+    padding-bottom: 1em;
+    padding-left: 4em;
+}
+
+.tabela-linha-superior {
+    background-color: var(--azul-principal);
+    font-weight: bold;
+    border: 1px solid;
+    border-color: var(--branco-principal);
+}
+
+.tabela-coluna-superior {
+    background-color: var(--azul-principal);
+    font-weight: bold;
+    border: 1px solid;
+    border-color: var(--branco-principal);
+    padding-top: 0.5em;
+    padding-right: 4em;
+    padding-bottom: 0.5em;
+    padding-left: 4em;
+}
